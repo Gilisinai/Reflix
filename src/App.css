@@ -1,5 +1,11 @@
+body{
+  background-color: black;
+  color: white;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -19,4 +25,35 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.user{
+  margin: 15px;
+  width: 20vw;
+  height: 25vh;
+  display:inline-block;
+  border-radius: 5px;
+  
+}
+
+.user:hover{
+  border: 1px solid white;
+}
+
+.red{
+  background-color: red;
+  
+
+}
+.green{
+  background-color: green;
+  
+}
+.orange{
+  background-color: orange;
+  
+}
+.yellow{
+  background-color: yellow;
+  
 }
