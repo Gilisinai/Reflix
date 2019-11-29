@@ -24,12 +24,17 @@ class App extends Component {
   rentMovie = (event) => {
     let movies = [...this.state.movies]
     let movieIndex = movies.findIndex(i => i.id == event.target.id)
-    let budget = movies[movieIndex].isRented ? this.state.budget += 3 : this.state.budget -= 3
-    movies[movieIndex].isRented = !movies[movieIndex].isRented
+    
+      let budget = movies[movieIndex].isRented ? this.state.budget += 3 : this.state.budget -=3
+      movies[movieIndex].isRented = !movies[movieIndex].isRented
     this.setState({
       movies,
       budget
     })
+    
+    
+   
+    
   }
   render() {
     return (
