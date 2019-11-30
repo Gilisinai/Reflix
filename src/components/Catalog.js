@@ -40,7 +40,7 @@ class Catalog extends Component {
                 <h4 className="title">Movies ></h4>
                 <div className="addToRent">
                 
-                    {this.props.movies.filter(m => (m.title).toLowerCase().includes(this.state.search)).map(m =>
+                    {this.props.movies.filter(m => (m.title).toLowerCase().includes(this.state.search.toLowerCase())).map(m =>
                         <Movie key={m.id} src={m.img} className="" rentMovie={this.props.rentMovie} id={m.id} movie={m} />
                     )}
                 </div>
