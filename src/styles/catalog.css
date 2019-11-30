@@ -10,7 +10,7 @@
     display: inline-block;
     position: absolute;
     right: 10px;
-    margin-top: 20px;
+    top:45px
 }
 
 .rent-container{
@@ -21,4 +21,12 @@
 
 .rented-movie{
     display: inline-block
+}
+
+.search{
+    position: absolute;
+    left: 20px;
+    top:15px;
+    
+    margin:30px
 }
