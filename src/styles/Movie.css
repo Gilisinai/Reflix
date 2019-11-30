@@ -1,16 +1,48 @@
-img{
-    width: 150px;
-    height: 200px;
-}
+
 
 .Movie{
     display: inline-block;
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
 }
 
-.addToRent{
+.search{
     display: inline-block;
+    
+}
+input{
+    background-color: black;
+    border: 0.5px solid rgb(189, 181, 181);
+    border-radius: 5px;
+    color:white;
 }
 
-.rented-movie{
-    display: inline-block;
+.add{
+    background-color: white;
+    font-size: large;
+    width: 23px;
+    border-radius: 12px;
+    color: black;
+    border:none;
+    position: relative;
+    left:60px;
+    bottom:200px;
+    opacity: 0.7;
+    cursor: pointer;
 }
+
+@keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

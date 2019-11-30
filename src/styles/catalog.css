@@ -1,0 +1,24 @@
+.title{
+    
+    display: table-cell;
+    position: relative;
+    left:5vw;
+    
+}
+
+.budget{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+}
+
+.rent-container{
+    padding:20px;
+}
+
+
+
+.rented-movie{
+    display: inline-block
+}

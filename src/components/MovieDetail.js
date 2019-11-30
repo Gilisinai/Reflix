@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../styles/movieDetail.css'
 
 class MovieDetail extends Component {
 
@@ -14,10 +14,16 @@ class MovieDetail extends Component {
                 {movies.filter(m => m.id == movie).map(m => {
                     return (
                         <div key={m.id} className="details">
-                            <div> {m.title}</div>
-                            <div> {m.year}</div>
-                            <div> <img src={m.img} /></div>
-                            <div> {m.descrShort}</div>
+                            <div> <h2>{m.title} ({m.year})</h2></div>
+                            
+                            
+                            <div className="trailer">
+                            <iframe width="420" height="315"
+                                src={`https://www.youtube.com/embed/${m.trailer}?controls=0`}>
+                            </iframe>
+                            
+                            </div>
+                            <div className="description"> {m.descrShort}</div>
                         </div>
                     )
                 })}

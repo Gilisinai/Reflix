@@ -16,7 +16,7 @@ class Movie extends Component {
             <div className="Movie">
                    
                         <Link to={`movies/${this.props.movie.id}`}> <img src={this.props.src} /></Link>
-                        <div onClick={this.rentMovie} id={this.props.id}> {this.props.isRented ? "-" : "+"} </div>
+                        <button className="add" onClick={this.rentMovie} id={this.props.id}> {this.props.isRented ? "-" : "+"} </button>
               
             </div>
 
