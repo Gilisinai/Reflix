@@ -8,6 +8,10 @@ class Movie extends Component {
         this.props.rentMovie(e)
     }
 
+    returnMovie = (e) => {
+        this.props.returnMovie(e)
+    }
+
     render() {
   
         
@@ -16,7 +20,7 @@ class Movie extends Component {
             <div className="Movie">
                    
                         <Link to={`movies/${this.props.movie.id}`}> <img src={this.props.src} /></Link>
-                        <button className="add" onClick={this.rentMovie} id={this.props.id}> {this.props.isRented ? "-" : "+"} </button>
+                        <button className="add" onClick={this.props.isRented ? this.returnMovie : this.rentMovie} id={this.props.id}> {this.props.isRented ? "-" : "+"} </button>
               
             </div>
 

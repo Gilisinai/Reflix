@@ -33,7 +33,7 @@ class Catalog extends Component {
                 
                     {this.props.movies.filter(m => m.isRented).map(m =>
                         <div key={m.id} className="rented-movie">
-                            <Movie src={m.img} className="removeFromRent" isRented={this.props.movies[m.id].isRented} rentMovie={this.props.rentMovie} id={m.id} movie={m} />
+                            <Movie src={m.img} className="removeFromRent" isRented={this.props.movies[m.id].isRented} returnMovie={this.props.returnMovie} id={m.id} movie={m} />
 
                         </div>)}
                 </div>
