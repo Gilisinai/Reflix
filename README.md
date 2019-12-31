@@ -4,7 +4,7 @@
   - [Running the project](#running-the-project)
   - [Screenshots](#screenshots)
     - [Select User](#select-user)
-    -[ Movie Catalog](#movie-catalog)
+    - [Movie Catalog](#movie-catalog)
     - [Search Filter](#search-filter)
     - [Rented Movies](#rented-movies)
     - [Movie Details](#movie-details)
