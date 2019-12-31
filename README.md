@@ -1,16 +1,16 @@
 # Table Of Contents
 
 - [Reflix](#reflix)
-  - Running the project
-  - Screenshots
-    - Select User
-    - Movie Catalog
-    - Search Filter
-    - Rented Movies
-    - Movie Details
-    - Mobile Responsive
-  - Techstack
-  - TODO
+  - [Running the project](#running-the-project)
+  - [Screenshots](#screenshots)
+    - [Select User](#select-user)
+    -[ Movie Catalog](#movie-catalog)
+    - [Search Filter](#search-filter)
+    - [Rented Movies](#rented-movies)
+    - [Movie Details](#movie-details)
+    - [Mobile Responsive](#make-responsive)
+  - [Techstack](#tech-stack)
+  - [TODO](#todo)
 
 # Reflix
 
@@ -34,39 +34,37 @@ Demo: http://gili-reflix.herokuapp.com/
 
 Main screen for user to select who they are.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-home.PNG)
-
+<p align="center"><img src="assets/reflix-home.PNG" width="600" /></p>
 
 ### Movie Catalog
 
 A user can see their budget and all the available movies to rent.
 
-
-<p align="center"><img src="assets/reflix-catalog.PNG" width="300" /></p>
+<p align="center"><img src="assets/reflix-catalog.PNG" width="600" /></p>
 
 ### Search Filter
 
 As a user searches the movie catalog filters the movie based on the name.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-search.PNG)
+<p align="center"><img src="assets/reflix-search.PNG" width="600" /></p>
 
 ### Rented Movies
 
 Once a user rents a movie/s a new 'Rented' section appears on the page showing which movies they have rented.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-rented.PNG)
+<p align="center"><img src="assets/reflix-rented.PNG" width="600" /></p>
 
 ### Movie Details
 
 A user can click on a movie to see more information about the movie.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-moviedetail.PNG)
+<p align="center"><img src="assets/reflix-moviedetail.PNG" width="600" /></p>
 
 ### Mobile Responsive
 
 The app if fully responsive for mobile use.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-mobile.PNG)
+<p align="center"><img src="assets/reflix-mobile.PNG" width="600" /></p>
 
 ## Techstack
 
