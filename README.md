@@ -20,21 +20,32 @@ Demo: http://gili-reflix.herokuapp.com/
 
 Main screen for user to select who they are.
 
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-home.PNG)
+
+
 ### Movie Catalog
 
 A user can see their budget and all the available movies to rent.
+
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-catalog.PNG)
 
 ### Search Filter
 
 As a user searches the movie catalog filters the movie based on the name.
 
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-search.PNG)
+
 ### Rented Movies
 
 Once a user rents a movie/s a new 'Rented' section appears on the page showing which movies they have rented.
 
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-rented.PNG)
+
 ### Movie Details
 
 A user can click on a movie to see more information about the movie.
+
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-moviedetail.PNG)
 
 ## Teackstack
 
