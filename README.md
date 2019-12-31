@@ -8,7 +8,7 @@
     - [Search Filter](#search-filter)
     - [Rented Movies](#rented-movies)
     - [Movie Details](#movie-details)
-    - [Mobile Responsive](#make-responsive)
+    - [Mobile Responsive](#mobile-responsive)
   - [Techstack](#tech-stack)
   - [TODO](#todo)
 
