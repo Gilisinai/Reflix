@@ -1,3 +1,17 @@
+# Table Of Contents
+
+- [Reflix](#reflix)
+  - Running the project
+  - Screenshots
+    - Select User
+    - Movie Catalog
+    - Search Filter
+    - Rented Movies
+    - Movie Details
+    - Mobile Responsive
+  - Techstack
+  - TODO
+
 # Reflix
 
 Reflix is a front end movie rental app built with React. Users are able to choose their user and rent movies based on their budget. Each user has a unique budget. Users can also click on the movie to see more information about the movie.
@@ -48,7 +62,13 @@ A user can click on a movie to see more information about the movie.
 
 ![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-moviedetail.PNG)
 
-## Teackstack
+### Mobile Responsive
+
+The app if fully responsive for mobile use.
+
+![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-mobile.PNG)
+
+## Techstack
 
 - React
 
