@@ -27,7 +27,7 @@ class Catalog extends Component {
             <div id="Catalog">
                 
                 <div  className="budget">Your budget: {this.props.budget}$</div>
-                <div className="search"><input name="search" value={this.state.search} onChange={this.searchMovie} type="text" placeholder="  Search for a Movie" /></div>
+                <div className="search"><input name="search" className="input" value={this.state.search} onChange={this.searchMovie} type="text" placeholder="  Search for a Movie" /></div>
                 
                 <div className="rent-container">
                 
