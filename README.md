@@ -27,7 +27,8 @@ Main screen for user to select who they are.
 
 A user can see their budget and all the available movies to rent.
 
-![](https://github.com/Gilisinai/Reflix/blob/master/assets/reflix-catalog.PNG)
+
+<p align="center"><img src="assets/reflix-catalog.PNG" width="300" /></p>
 
 ### Search Filter
 
